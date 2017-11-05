@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome: "
+                 />
+
+            <TextView
+
+                android:id="@+id/nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cidade: "
+                />
+
+            <TextView
+                android:id="@+id/cidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cidade"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dia de Abertura: "
+                />
+
+            <TextView
+                android:id="@+id/data_inicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="data"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dia de Encerramento: " />
+
+            <TextView
+                android:id="@+id/data_fin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="data"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horários: "
+                />
+
+            <TextView
+                android:id="@+id/horario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="horario"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Local: "
+                 />
+
+            <TextView
+                android:id="@+id/endereco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="endereco"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição e Atrações: "
+                 />
+
+            <TextView
+                android:id="@+id/atracoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="atracoes"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor do ingresso: " />
+
+            <TextView
+                android:id="@+id/valor_ingresso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preco" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+             />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="368dp"
+
+            android:layout_height="230dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            tools:context="com.example.roman.essai_carte_a_suprimer.MapsActivity"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Voir la video de presentation"
+                tools:layout_editor_absoluteX="-4dp"
+                tools:layout_editor_absoluteY="332dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+<!-- tableau avec les info sur la fete, date horaire,adresse, atraction valeur d'entree
+carte
+video -->
