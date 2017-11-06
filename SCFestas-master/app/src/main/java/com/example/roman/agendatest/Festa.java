@@ -27,10 +27,10 @@ public class Festa implements Serializable{
             "Blumenau",
             "4",
             "22",
-            "PREENCHER OS HORÁRIOS AINDA!",
+            "Setores:\nAbrem diariamente a partir das 18h. Aos sábados, domingos, feriados e véspera de feriados, os setores abrem às 11h.\n\nPraça de Alimentação e Eisenbahn Biergarten:\nAbrem diariamente a partir das 11h, com atrações musicais.",
             "Parque Vila Germânica (Rua Alberto Stein, 199 - Bairro da Velha)",
             "A maior festa alemã da América do Sul, a Oktoberfest Blumenau conta com diversas atrações artísticas, musicais e culturais, desfiles temáticos e grande variedade em chopes e gastronomia típica. Os desfiles oficiais da Oktoberfest, na Rua XV de Novembro, no Centro de Blumenau, são uma das principais atrações da festa.",
-            "Horários de cobrança de ingresso\n\nTerça a sexta-feira: a partir das 18h.Sábados, domingos e feriado: a partir das 13h.\nVéspera de feriado: a partir das 18h.\n\nValores:\nAbertura (04/10), segundas-feiras (09 e 16/10) e encerramento (22/10): entrada gratuita.\nDomingos, terças, quartas (exceto véspera de feriado) e quintas-feiras (exceto feriado): R$ 12.\nSextas-feiras, véspera de feriado e feriado: R$ 30.\nSexta-feira, dia 13/10: R$ 40.\nSábados: R$ 40.\nCrianças até 12 anos: Não pagam entrada.",
+            "Horários de cobrança de ingresso\n\nTerça a sexta-feira: a partir das 18h.Sábados, domingos e feriado: a partir das 13h.\nVéspera de feriado: a partir das 18h.\n\nValores:\nAbertura (04/10), segundas-feiras (09 e 16/10) e encerramento (22/10): entrada gratuita.\nDomingos, terças, quartas e quintas: R$ 12.\nSextas, véspera de feriado e feriado: R$ 30.\nDia 13 e Sábados: R$ 40.\nCrianças até 12 anos: Gratuito.",
             "-26.9158924",
             "-49.0852189",
             "1NWpoo4GEaA"
